@@ -1,0 +1,175 @@
+[
+  {
+    "id": "q01",
+    "category": "direct_factual",
+    "question": "According to the Fort Wainwright Alaska document, what are the first four qualitative impact categories considered not significant?",
+    "expected_sources": [
+      "eis_Fort_Wainwright_Alaska.pdf"
+    ],
+    "expected_keywords": [
+      "none",
+      "negligible",
+      "minor",
+      "moderate"
+    ],
+    "expected_keyword_mode": "all",
+    "expected_refusal": false
+  },
+  {
+    "id": "q02",
+    "category": "document_specific",
+    "question": "According to the PEIS for Oil and Gas, what environmental impacts are associated with oil and gas development?",
+    "expected_sources": [
+      "eis_PEIS_for_Oil_and_Gas.pdf"
+    ],
+    "expected_keywords": [
+      "environmental",
+      "impact"
+    ],
+    "expected_keyword_mode": "any",
+    "expected_refusal": false
+  },
+  {
+    "id": "q03",
+    "category": "direct_factual",
+    "question": "What is the purpose of the FirstNet project?",
+    "expected_sources": [
+      "eis_FirstNet.pdf"
+    ],
+    "expected_keywords": [
+      "FirstNet"
+    ],
+    "expected_keyword_mode": "any",
+    "expected_refusal": false
+  },
+  {
+    "id": "q04",
+    "category": "specific_document",
+    "question": "What environmental considerations are discussed in the Goldrush Mine Project?",
+    "expected_sources": [
+      "eis_Goldrush_Mine_Project_FEIS_October_2023_508.pdf"
+    ],
+    "expected_keywords": [
+      "environmental"
+    ],
+    "expected_keyword_mode": "any",
+    "expected_refusal": false
+  },
+  {
+    "id": "q05",
+    "category": "specific_document",
+    "question": "What environmental issues are discussed in the Fort Wainwright Alaska document?",
+    "expected_sources": [
+      "eis_Fort_Wainwright_Alaska.pdf"
+    ],
+    "expected_keywords": [
+      "environmental"
+    ],
+    "expected_keyword_mode": "any",
+    "expected_refusal": false
+  },
+  {
+    "id": "q06",
+    "category": "specific_document",
+    "question": "What topics are addressed in the Land Management Plan?",
+    "expected_sources": [
+      "eis_Land_Management_Plan.pdf"
+    ],
+    "expected_keywords": [
+      "land",
+      "management"
+    ],
+    "expected_keyword_mode": "any",
+    "expected_refusal": false
+  },
+  {
+    "id": "q07",
+    "category": "specific_document",
+    "question": "What environmental considerations are associated with the Sea Port Oil Terminal?",
+    "expected_sources": [
+      "eis_Sea_Port_Oil_Terminal.pdf"
+    ],
+    "expected_keywords": [
+      "environmental"
+    ],
+    "expected_keyword_mode": "any",
+    "expected_refusal": false
+  },
+  {
+    "id": "q08",
+    "category": "conversational_followup",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What environmental impacts are associated with oil and gas development?"
+      },
+      {
+        "role": "assistant",
+        "content": "The documents describe several environmental impacts associated with oil and gas development."
+      }
+    ],
+    "question": "Which of these impacts could affect marine habitats?",
+    "expected_sources": [
+      "eis_PEIS_for_Oil_and_Gas.pdf"
+    ],
+    "expected_keywords": [
+      "marine",
+      "habitat"
+    ],
+    "expected_keyword_mode": "any",
+    "expected_refusal": false
+  },
+  {
+    "id": "q09",
+    "category": "out_of_context",
+    "question": "What is the population of India according to the documents?",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "expected_keyword_mode": "none",
+    "expected_refusal": true
+  },
+  {
+    "id": "q10",
+    "category": "out_of_context",
+    "question": "Who won the FIFA World Cup in 2022 according to these documents?",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "expected_keyword_mode": "none",
+    "expected_refusal": true
+  },
+  {
+    "id": "q11",
+    "category": "answer_not_top_chunk",
+    "question": "According to the Goldrush Mine Project document, how does it describe the intensity of effects?",
+    "expected_sources": [
+      "eis_Goldrush_Mine_Project_FEIS_October_2023_508.pdf"
+    ],
+    "expected_keywords": [
+      "major",
+      "moderate",
+      "minor",
+      "negligible"
+    ],
+    "expected_keyword_mode": "all",
+    "expected_refusal": false
+  },
+  {
+    "id": "q12",
+    "category": "direct_factual",
+    "question": "What types of effects are included in the definition of effects discussed in the Goldrush Mine Project document?",
+    "expected_sources": [
+      "eis_Goldrush_Mine_Project_FEIS_October_2023_508.pdf"
+    ],
+    "expected_keywords": [
+      "ecological",
+      "aesthetic",
+      "historic",
+      "cultural",
+      "economic",
+      "social",
+      "health"
+    ],
+    "expected_keyword_mode": "all",
+    "expected_refusal": false
+  }
+]
